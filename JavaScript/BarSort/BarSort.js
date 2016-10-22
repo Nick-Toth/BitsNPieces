@@ -2,7 +2,7 @@
  *  Cycling animation of 5 bars being sorted by  *
  *  alternating sorting algorithms. Heights are  *
  *  randomized with each iteration.              *
- **********************************************/
+ *************************************************/
 
 var sort_algs = ['bubbleSort','insertionSort'], // <-\
     alg_altr  = 0,                              //  <--- Management of sorting algorithm rotation.
