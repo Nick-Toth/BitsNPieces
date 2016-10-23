@@ -34,13 +34,13 @@ var swap_counter  = 0,  // Total swapped / cycle. Coefficient for next_run_time.
 {
     reset( ); // See below
 
-    next_run_time = swap_counter * 1000 + 500; // Time for animations + 500ms wait time.
+    next_run_time = swap_counter * 1000 + 1000; // Time for animations + 1000ms wait time.
 
     // If the new heights needed to be sorted.
     if( original_bar_heights != sorted_bar_heights )
         animateSwap( ); // ANIMATE DEM SORTATIONS
 
-    else{ next_run_time = 100; } // If bars happen to be already sorted, wait 100ms and restart.
+    else{ next_run_time = 500; } // If bars happen to be already sorted, wait 500ms and restart.
 
     setTimeout( initialize , next_run_time );
 
