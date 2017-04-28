@@ -389,7 +389,7 @@ template<typename A, typename B>
 bool zip(std::list<A> & fst_list, std::list<B> & snd_list, std::list< Tuple<A,B> > & zip_list)
 {
   // Store the size of the first list.
-  int fst_size = fst_list.size();
+  unsigned int fst_size = fst_list.size();
 
   // If the lists are not the same size..
   if(fst_size == 0 || fst_size != snd_list.size() )
