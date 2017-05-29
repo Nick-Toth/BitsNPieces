@@ -1,2 +1,2 @@
 # BitsNPieces
-Probably nothing TOO awesome. Just misc little things.
+This repository contains some small, miscellaneous programs.
